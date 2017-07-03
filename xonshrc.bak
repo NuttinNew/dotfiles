@@ -1,0 +1,14 @@
+# Fallback Prompt
+# $PROMPT = '\n {BOLD_YELLOW}┌─ {BOLD_BLUE}──── [ {hostname} ] ──── {BOLD_YELLOW}: {BOLD_YELLOW}──── [ {BOLD_GREEN}{cwd}{BOLD_YELLOW} ] ────{BOLD_BLUE}{curr_branch: : ──── [ {} ] ────} \n {BOLD_YELLOW}└─── [ {NO_COLOR}'
+
+# Experimental Prompt
+
+# Primary Prompt
+$PROMPT = '\n {BOLD_YELLOW}┌─ {BOLD_BLUE}──── [ {user} ] ──── {BOLD_YELLOW}: {BOLD_YELLOW}──── [ {BOLD_GREEN}{cwd}{BOLD_YELLOW} ] ────{BOLD_BLUE}{curr_branch: : ──── [ {} ] ────} \n {BOLD_YELLOW}└─── [ {NO_COLOR}'
+
+
+# Aliases
+aliases['la'] = ['ls', '-lA']
+aliases['ll'] = ['ls', '-l']
+aliases['vim'] = ['nvim']
+aliases['cls'] = ['clear']
