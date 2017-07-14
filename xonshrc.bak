@@ -1,10 +1,10 @@
 # Fallback Prompt
-# $PROMPT = '\n {BOLD_YELLOW}┌─ {BOLD_BLUE}──── [ {hostname} ] ──── {BOLD_YELLOW}: {BOLD_YELLOW}──── [ {BOLD_GREEN}{cwd}{BOLD_YELLOW} ] ────{BOLD_BLUE}{curr_branch: : ──── [ {} ] ────} \n {BOLD_YELLOW}└─── [ {NO_COLOR}'
+# $PROMPT = '\n {BOLD_YELLOW}┌─ {BOLD_BLUE}──── [ {user} ] ──── {BOLD_YELLOW}: {BOLD_YELLOW}──── [ {BOLD_GREEN}{cwd}{BOLD_YELLOW} ] ────{BOLD_BLUE}{curr_branch: : ──── [ {} ] ────} \n {BOLD_YELLOW}└─── [ {NO_COLOR}'
 
 # Experimental Prompt
+$PROMPT = '{BLUE}{hostname}{WHITE} : {BLUE}{short_cwd}{PURPLE}{curr_branch: : {} }{WHITE}{env_name: : {}}{WHITE} |> {NO_COLOR}'
 
 # Primary Prompt
-$PROMPT = '\n {BOLD_YELLOW}┌─ {BOLD_BLUE}──── [ {user} ] ──── {BOLD_YELLOW}: {BOLD_YELLOW}──── [ {BOLD_GREEN}{cwd}{BOLD_YELLOW} ] ────{BOLD_BLUE}{curr_branch: : ──── [ {} ] ────} \n {BOLD_YELLOW}└─── [ {NO_COLOR}'
 
 
 # Aliases
